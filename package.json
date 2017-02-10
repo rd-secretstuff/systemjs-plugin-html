@@ -33,7 +33,7 @@
   "scripts": {
     "test": "karma start",
     "test:bundle": "mkdir temp && jspm bundle test/import-two-elements/main.js temp/build.js",
-    "postinstall": "jspm install"
+    "postinstall": "jspm install --yes"
   },
   "author": "Jayson Harshbarger",
   "devDependencies": {
